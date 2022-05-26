@@ -39,6 +39,5 @@ public class SearchStepDefinitions {
     @Then("he doesn not see the results")
     public void he_Doesn_Not_See_The_Results() {
         restAssuredThat(response -> response.body("error", contains("True")));
-
     }
 }
