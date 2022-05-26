@@ -25,6 +25,7 @@ public class SearchStepDefinitions {
         
         
 
+
     }
 
     @Then("he sees the results displayed for apple")
