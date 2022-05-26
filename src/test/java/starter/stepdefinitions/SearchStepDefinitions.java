@@ -35,6 +35,7 @@ public class SearchStepDefinitions {
 
     @Then("he sees the results displayed for mango")
     public void heSeesTheResultsDisplayedForMango() {
+
         restAssuredThat(response -> response.body("title", contains("mango")));
     }
 
