@@ -18,6 +18,8 @@ public class SearchStepDefinitions {
     public void heCallsEndpoint(String arg0) {
         SerenityRest.given().get(arg0);
 
+
+
     }
 
     @Then("he sees the results displayed for apple")
